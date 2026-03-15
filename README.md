@@ -1,144 +1,83 @@
-<div align="center">
+# Love Tracker – Releases
 
-# 💎 Love Tracker
+[![Latest](https://img.shields.io/github/v/release/Pcf1337-hash/love-updates?label=Latest&color=ff6b8a)](https://github.com/Pcf1337-hash/love-updates/releases/latest)
 
-### *Haltet eure Liebe lebendig – jeden einzelnen Tag.*
-
-<br/>
-
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Pcf1337-hash/love)
-[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-ff69b4?style=for-the-badge)](https://github.com/Pcf1337-hash/love)
-
-<br/>
-
-> *Zwei Herzen. Eine App. Unendlich viele gemeinsame Momente.*
-
-<br/>
-
-</div>
+> Dieses Repository enthält ausschließlich die APK-Releases der **Love Tracker** App.  
+> Source Code & Issues: [Pcf1337-hash/love](https://github.com/Pcf1337-hash/love)
 
 ---
 
-## Was ist Love Tracker?
+## 📥 Installation
 
-Love Tracker ist eine private App für Paare – ein digitales Zuhause für eure Beziehung. Kein sozialer Feed, keine Ablenkungen, kein Lärm der Außenwelt. Nur ihr zwei.
+1. Auf dem Android-Gerät **Einstellungen → Sicherheit → Unbekannte Quellen** aktivieren  
+   *(oder „Installation aus unbekannten Quellen" für den Browser/Datei-Manager erlauben)*
+2. Neueste APK herunterladen → **[Releases](https://github.com/Pcf1337-hash/love-updates/releases/latest)**
+3. APK öffnen und installieren
+4. Beim ersten Start die Einrichtung durchlaufen
 
-Verfolgt eure gemeinsame Reise, bleibt verbunden wenn ihr getrennt seid, und feiert jeden Meilenstein eurer Liebe – mit einem Design das so besonders ist wie eure Geschichte.
-
----
-
-## ✨ Alles, was eure Liebe verdient
-
-<br/>
-
-### 💬 Echtzeit-Chat – Nur für euch zwei
-
-Schreibt euch Nachrichten, schickt Sprachaufnahmen und teilt Fotos in einem privaten, verschlüsselten Chat – ganz ohne Werbung oder Dritte. Für besondere Momente gibt es **Einmal-Fotos**, die nach dem Öffnen verschwinden – wie ein Geheimnis, das nur ihr kennt.
-
-<br/>
-
-### 📸 Moments – Zeitversetzte Überraschungen
-
-Plant eine Liebesbotschaft für später. Ein Foto mit einer Nachricht, das euer Partner genau dann erhält, wenn ihr es möchtet. Überraschungen, die das Herz höher schlagen lassen – auch wenn ihr gerade nicht zusammen seid.
-
-<br/>
-
-### 🖼️ Timeline – Euer gemeinsames Album
-
-Ein geteiltes Fotoalbum und Tagebuch, das nur euch gehört. Haltet besondere Momente mit Fotos fest, schreibt Tagebucheinträge mit eurer aktuellen Stimmung und kommentiert gemeinsam eure schönsten Erinnerungen. Mit GPS-Ort wißt ihr immer noch, wo ihr euch damals befunden habt.
-
-<br/>
-
-### 🏆 Gamification – Wachst gemeinsam
-
-Eure Beziehung verdient Anerkennung. Love Tracker belohnt euch für jeden gemeinsamen Tag, jede Nachricht, jedes Foto:
-
-- **XP & Level-System** – Je mehr ihr miteinander teilt, desto stärker wächst euer gemeinsames Level
-- **24 einzigartige Badges** – Von "1 Woche zusammen" bis "1 Jahr in Liebe"
-- **Tägliche Streaks** – Checkt täglich ein und baut euren Streak auf. Je länger, desto größer die Belohnung
-- **Avatar-Rahmen** – Schaltet exklusive Profilrahmen frei, die euren Streak widerspiegeln
-
-| Rahmen | Benötigter Streak |
-|--------|------------------|
-| ✨ Spark | 7 Tage |
-| 💕 Hearts | 14 Tage |
-| 🌸 Blossom | 30 Tage |
-| 🌌 Cosmos | 60 Tage |
-| 💎 Crystal | 100 Tage |
-| 👑 Royal | 365 Tage |
-
-<br/>
-
-### 🏠 Dashboard – Euer Liebes-Cockpit
-
-Auf einen Blick: wie viele Tage ihr schon zusammen seid, euer aktueller Level, euer Streak und eure nächsten Meilensteine. Im Zentrum thront euer **Liebes-Kristall** – er wächst und erstrahlt mit eurer Beziehung.
-
-<br/>
-
-### 🎯 Eigene Meilensteine
-
-Plant eure nächsten besonderen Momente – Jahrestag, erster Urlaub, gemeinsamer Umzug. Mit optionalem GPS-Ort und Countdown bis zum großen Tag.
-
-<br/>
-
-### 🔔 Push-Benachrichtigungen
-
-Keine Nachricht von eurem Partner verpasst – egal ob Chat, ein neuer Moment oder ein frischer Tagebucheintrag. Love Tracker hält euch immer auf dem Laufenden.
-
-<br/>
-
-### 📱 Android-Widget
-
-Bringt eure Beziehung direkt auf den Homescreen. Das Widget zeigt Tage zusammen, euren Level und den aktuellen Streak – ein tägliches Lächeln jedes Mal wenn ihr euer Handy entsperrt.
-
-<br/>
-
-### 🎨 8 Theme-Varianten
-
-Love Tracker kommt im eleganten Dark-Premium-Look – und ihr könnt aus **8 verschiedenen Farbthemen** wählen. Findet das Design, das zu eurer Liebe passt.
-
-<br/>
-
-### 🔒 Eure Privatsphäre – Unser Versprechen
-
-Alle Chat-Nachrichten sind **Ende-zu-Ende-verschlüsselt**. Eure Fotos, Nachrichten und Erinnerungen gehören ausschließlich euch. Kein Account-Verkauf, keine Werbung, kein Tracking durch Dritte. Gelöschte Inhalte werden vollständig entfernt.
+> **Hinweis:** Die App prüft automatisch auf neue Versionen und zeigt einen In-App-Update-Dialog.
 
 ---
 
-## 🌟 Wie es funktioniert
+## 📋 Changelog
 
-```
-1. Account erstellen
-        ↓
-2. Partner einladen (Code teilen)
-        ↓
-3. Euer gemeinsames Zuhause wartet
-```
+### v1.8.1 (2026-03-15)
+- **Widget-Fix**: `await requestWidgetUpdate()` vor Navigation – Race Condition behoben, Widget aktualisiert sich jetzt zuverlässig nach „Fertig"
+- **Widget-Config**: Debounce (400 ms) für Live-Updates beim Slider-Ziehen, Floating Mini-Preview beim Scrollen
+- **Safe Area**: Statusleiste wird im Movie-Night-Screen korrekt berücksichtigt
 
-Einer von euch erstellt einen Account, gibt einen persönlichen Einladecode an den Partner weiter – und schon seid ihr verbunden. Einfach, privat, romantisch.
+### v1.8.0 (2026-03-15)
+- **🎬 Movie Night**: Entdecke Filme & Serien mit deinem Partner
+  - TMDB-Katalog (200.000+ Titel, deutsch)
+  - Filter: Genre, Erscheinungsjahr, Schauspieler (Autocomplete)
+  - Gemeinsame Pärchen-Favoriten (gespeichert in Supabase)
+  - Film-Details mit Backdrop, Cast-Scroll & YouTube-Trailer
+  - Persistente Filtereinstellungen zwischen Sessions
+- Date-Ideen Feature entfernt (ersetzt durch Movie Night)
+- **Widget-Config überarbeitet**: 3 separate Skalen (Tageszahl / Info-Text / Avatar), 20 Farb-Swatches
+
+### v1.7.0 (2026-03-14)
+- **Wunschliste**: Push-Benachrichtigung wenn Partner einen Wunsch erstellt
+- Partner kann Wünsche als „gekauft" markieren
+- Notizen & Anmerkungsfeld im Detail-Modal für beide Partner
+
+### v1.6.8 (2026-03-14)
+- Truth-or-Dare Sync-Bug behoben
+- Widget-Slider-Bug im Konfigurations-Screen behoben
+
+### v1.6.7 (2026-03-14)
+- Truth or Dare: Multiplayer-Kartenspiel mit Partner (3 Modi: Normal / Brave / FSK18)
+- Widget-Fixes: Preview & Platzierung
+
+### v1.6.5 – v1.6.6 (2026-03-14)
+- Widget-Anpassungs-Screen: Farben, Schriftgröße, Herz-Toggle, Zeitaufschlüsselung
 
 ---
 
-## 📲 Download
+## 📱 Features (aktuell v1.8.1)
 
-Die App wird als Android-APK bereitgestellt.
-
-> **Anforderungen:** Android 8.0 oder neuer
-
----
-
-## 💌 Über die App
-
-Love Tracker wurde mit einem einzigen Gedanken gebaut: *Beziehungen verdienen mehr als Emojis in einer Gruppen-Chat-App.*
-
-Jede Funktion, jedes Detail und jede Animation wurde mit Liebe für Paare entwickelt, die das Besondere in ihrem Alltag festhalten möchten.
-
-<br/>
-
-<div align="center">
+| Feature | Beschreibung |
+|---------|-------------|
+| 🎬 **Movie Night** | TMDB-Entdeckung + Pärchen-Favoriten + Filter + Trailer |
+| 💬 **Chat** | Echtzeit, E2E-verschlüsselt, Sticker, Sprachnachrichten, Reaktionen |
+| 📸 **Timeline** | Geteiltes Fotoalbum + Tagebuch mit Kommentaren |
+| ✨ **Moments** | Zeitgesteuerte Foto-Botschaften (optional ephemeral) |
+| 📝 **Notizen** | Geteilte Pärchen-Notizen & To-Do-Listen (Realtime) |
+| 🎯 **Gamification** | Level, XP, 24 Badges, Avatar-Frames durch Streaks |
+| 🔥 **Truth or Dare** | Multiplayer-Kartenspiel (3 Modi), Realtime-Sync |
+| 🎁 **Wunschliste** | Geheime Liste mit Partner-„Gekauft"-Toggle & Push |
+| 🖼️ **Widget** | Homescreen-Widget (Tage, Level, Streak) – vollständig anpassbar |
+| 🏆 **Meilensteine** | Automatische Zeit-Meilensteine + eigene (mit GPS) |
+| 🔔 **Push-Nachrichten** | Chat, Moments, Timeline, Kommentare, Pokes |
 
 ---
 
-*Made with* ❤️ *for couples everywhere*
+## 🔧 Systemanforderungen
 
-</div>
+- Android 7.0 (API 24) oder neuer
+- ~150 MB freier Speicher
+- Internetverbindung für Sync-Features
+
+---
+
+*Made with ❤️ for couples*
