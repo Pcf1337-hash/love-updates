@@ -21,63 +21,55 @@
 
 ## 📋 Changelog
 
+### v1.8.2 (2026-03-15)
+- **🎬 Movie Night: Watchlist-System**
+  - Neuer Tab „Watchlist" mit zwei Sektionen: **Noch zu Schauen** & **Bereits Gesehen**
+  - Titel zur Watchlist hinzufügen mit **+**-Button auf der Karte im Entdecken-Tab
+  - Als gesehen abhaken (✓) → Titel wandert in „Bereits Gesehen" mit Datum
+  - Zurücksetzen (↩) und Löschen (🗑) im „Bereits Gesehen"-Bereich
+  - **Favorit ⭐** innerhalb der Watchlist: Pinnt Titel nach oben + leuchtender Rahmen
+  - Im Entdecken-Tab: horizontale „Noch zu Schauen"-Leiste oben (pinned Titel leuchten)
+  - Watchlist ist couple-synchron – beide Partner sehen dasselbe in Echtzeit (Supabase)
+- **Filter & Sortierung**
+  - Sortierung wählbar: Beliebtheit, Neueste, Beste Bewertung, Einspielergebnis
+  - Filterauswahl bleibt beim erneuten Öffnen des Filter-Sheets erhalten
+
 ### v1.8.1 (2026-03-15)
-- **Widget-Fix**: `await requestWidgetUpdate()` vor Navigation – Race Condition behoben, Widget aktualisiert sich jetzt zuverlässig nach „Fertig"
-- **Widget-Config**: Debounce (400 ms) für Live-Updates beim Slider-Ziehen, Floating Mini-Preview beim Scrollen
-- **Safe Area**: Statusleiste wird im Movie-Night-Screen korrekt berücksichtigt
+- **Widget-Fix**: Race Condition behoben, Widget aktualisiert sich nach „Fertig" zuverlässig
+- **Widget-Config**: Debounce (400 ms) + Floating Mini-Preview beim Scrollen
+- **Safe Area**: Statusleiste im Movie-Night-Screen korrekt behandelt
 
 ### v1.8.0 (2026-03-15)
 - **🎬 Movie Night**: Entdecke Filme & Serien mit deinem Partner
-  - TMDB-Katalog (200.000+ Titel, deutsch)
-  - Filter: Genre, Erscheinungsjahr, Schauspieler (Autocomplete)
-  - Gemeinsame Pärchen-Favoriten (gespeichert in Supabase)
-  - Film-Details mit Backdrop, Cast-Scroll & YouTube-Trailer
-  - Persistente Filtereinstellungen zwischen Sessions
-- Date-Ideen Feature entfernt (ersetzt durch Movie Night)
-- **Widget-Config überarbeitet**: 3 separate Skalen (Tageszahl / Info-Text / Avatar), 20 Farb-Swatches
+  - TMDB-Katalog (200.000+ Titel, deutsch), Filter, Favoriten, Film-Details, Trailer
 
 ### v1.7.0 (2026-03-14)
-- **Wunschliste**: Push-Benachrichtigung wenn Partner einen Wunsch erstellt
-- Partner kann Wünsche als „gekauft" markieren
-- Notizen & Anmerkungsfeld im Detail-Modal für beide Partner
+- **Wunschliste**: Push-Benachrichtigung, Partner-Kaufstatus, Notizen
 
 ### v1.6.8 (2026-03-14)
-- Truth-or-Dare Sync-Bug behoben
-- Widget-Slider-Bug im Konfigurations-Screen behoben
+- Truth-or-Dare Sync-Bug & Widget-Slider-Bug behoben
 
 ### v1.6.7 (2026-03-14)
-- Truth or Dare: Multiplayer-Kartenspiel mit Partner (3 Modi: Normal / Brave / FSK18)
-- Widget-Fixes: Preview & Platzierung
+- Truth or Dare: Multiplayer-Kartenspiel (Normal / Brave / FSK18)
 
 ### v1.6.5 – v1.6.6 (2026-03-14)
 - Widget-Anpassungs-Screen: Farben, Schriftgröße, Herz-Toggle, Zeitaufschlüsselung
 
 ---
 
-## 📱 Features (aktuell v1.8.1)
+## 📱 Features (aktuell v1.8.2)
 
 | Feature | Beschreibung |
 |---------|-------------|
-| 🎬 **Movie Night** | TMDB-Entdeckung + Pärchen-Favoriten + Filter + Trailer |
-| 💬 **Chat** | Echtzeit, E2E-verschlüsselt, Sticker, Sprachnachrichten, Reaktionen |
-| 📸 **Timeline** | Geteiltes Fotoalbum + Tagebuch mit Kommentaren |
-| ✨ **Moments** | Zeitgesteuerte Foto-Botschaften (optional ephemeral) |
-| 📝 **Notizen** | Geteilte Pärchen-Notizen & To-Do-Listen (Realtime) |
-| 🎯 **Gamification** | Level, XP, 24 Badges, Avatar-Frames durch Streaks |
-| 🔥 **Truth or Dare** | Multiplayer-Kartenspiel (3 Modi), Realtime-Sync |
-| 🎁 **Wunschliste** | Geheime Liste mit Partner-„Gekauft"-Toggle & Push |
-| 🖼️ **Widget** | Homescreen-Widget (Tage, Level, Streak) – vollständig anpassbar |
-| 🏆 **Meilensteine** | Automatische Zeit-Meilensteine + eigene (mit GPS) |
-| 🔔 **Push-Nachrichten** | Chat, Moments, Timeline, Kommentare, Pokes |
-
----
-
-## 🔧 Systemanforderungen
-
-- Android 7.0 (API 24) oder neuer
-- ~150 MB freier Speicher
-- Internetverbindung für Sync-Features
-
----
-
-*Made with ❤️ for couples*
+| 🎬 Movie Night | Filme & Serien entdecken, Watchlist (Noch zu Schauen / Bereits Gesehen), couple-sync |
+| 💬 Chat | Textnachrichten, Bilder, Sprachnachrichten, Reaktionen |
+| 📔 Tagebuch | Gemeinsame Einträge mit Fotos & Standort |
+| 📸 Fotoalbum | Pärchen-Fotoalbum mit Kommentaren |
+| 🎯 Challenges | Tägliche & individuelle Pärchen-Challenges |
+| 🎰 Truth or Dare | Multiplayer-Kartenspiel mit 3 Modi |
+| 🎁 Wunschliste | Wünsche mit Kaufstatus & Notizen |
+| 💌 Liebesbriefe | Private Briefe schreiben & versenden |
+| 📅 Meilensteine | Wichtige Daten & Jahrestage tracken |
+| 🧩 Widget | Konfigurierbares Homescreen-Widget |
+| 🔔 Push-Notifications | Echtzeit-Benachrichtigungen |
+| 🌙 Dark/Light Mode | Automatisch oder manuell |
